@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+
+    <!--=============== REMIX ICONS ===============-->
+    <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+            rel="stylesheet"
+        />
+
+    <!--=============== GOOGLE ICONS ===============-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+
+
+    <!--=============== SWIPER CDN ===============-->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- SCROLL REVEAL CDN -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>ShadowDrive Rentals</title>
+</head>
+
+<body>
+    
+    <!--==================== NAVBAR ====================-->
+        <nav class="navbar" id="navbar">
+            <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
+
+            <div class="navbar-logo">
+                <a href="index.html">
+                    <i class="ri-steering-line"></i> ShadowDrive 
+                </a>
+            </div>
+
+            <nav class="navbar-menu">
+                <ul>
+                    <li><a href="#home" class="active-link">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#popular">Popular</a></li>
+                    <li><a href="#featured">Featured</a></li>
+                </ul>
+            </nav>
+
+            <button class="navbar-burger" type="button" onclick="toggleMenuOpen()">
+                <span class="material-icons">menu</span>
+            </button>
+        </nav>
+    
+
+     <!--==================== MAIN ====================-->
+     <main>
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home-container container grid">
+                <div class="home-text-content">
+
+                    <h1 class="home-title">
+                        Luxury Car Selection
+                    </h1>
+
+                    <h4 class="home-subtitle">
+                        Explore our collection of sleek sports cars and prestigious sedans for a refined travel experience.
+                    </h2>
+
+                </div>
+
+                <img src="images/popular1.png" class="home-img">
+
+                <div class="home-all-benefits">
+                    <div class="benefit">
+                        <div class="benefit-icon">
+                            <i class="ri-phone-find-line"></i>
+                        </div>
+                        <h5 class="benefit-subtitle">
+                            Explore Luxury
+                        </h5>
+                    </div>
+
+                    <div class="benefit">
+                        <div class="benefit-icon">
+                            <i class="ri-calendar-line"></i>
+                        </div>
+                        <h5 class="benefit-subtitle">
+                            Secure Booking
+                        </h5>
+                    </div>
+
+                    <div class="benefit">
+                        <div class="benefit-icon">
+                            <i class="ri-car-line"></i>
+                        </div>
+                        <h5 class="benefit-subtitle">
+                            Ready to Roll
+                        </h5>
+                    </div>
+                </div>
+                <a href="#" class="home-button" id="homeButton">Embark</a>
+            </div>
+        </section>
+
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <div class="about-container container grid">
+                <div class="about-content-img">
+                    <img src="./images/car interior img/interior5.jpg" class="about-img">
+                </div>
+
+                <div class="about-content-info">
+                    <h2 class="about-title">
+                        What Drives Us
+                    </h2>
+                    <p class="about-description">
+                        Our mission is to make your travel experience seamless, enjoyable, and memorable. Whether you're on a business trip, a family vacation, or a weekend getaway, we offer a wide range of vehicles to suit every occasion and budge
+                    </p>
+                    <a href="#" class="about-button">Discover more</a>
+                </div>
+
+            </div>
+        </section>
+        
+        <!--==================== POPULAR ====================-->
+        <section class="popular section" id="popular">
+            <h2 class="section-title">
+                Popular choices
+            </h2>
+
+            <div class="popular-container container swiper">
+                <div class="swiper-wrapper">
+                    <article class="popular-card swiper-slide">
+
+                        <h2 class="popular-title">Land Rover</h2>
+                        <h3 class="popular-subtitle">Range Rover Sport</h3>
+
+                        <img src="./images/popular11.png" class="popular-img">
+
+                        <div class="popular-data">
+                            <div class="popular-data-group">
+                                <img src="./images/SVG REPO/engine-motor-svgrepo-com.svg" width="20px"> 3.0L
+                            </div>
+
+                            <div class="popular-data-group">
+                                <img src="./images/SVG REPO/gearshift-svgrepo-com.svg" width="20px"> Automatic
+                            </div>
+
+                            <div class="popular-data-group">
+                                <img src="./images/SVG REPO/dashboard-svgrepo-com.svg" width="20px"> 76.900km
+                            </div>
+
+                            <div class="popular-data-group">
+                                <img src="./images/SVG REPO/gas-station-svgrepo-com.svg" width="20px"> Petrol
+                            </div>
+
+                            <div class="popular-price-container">
+                                <h3 class="popular-price">
+                                    Starting at 130$ / Day
+                                </h3> 
+                            </div>
+
+                            <button class="popular-button">
+                                <i class="ri-arrow-right-double-fill"></i>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="popular-card swiper-slide">
+
+                        <h2 class="popular-title">BMW</h2>
+                        <h3 class="popular-subtitle">M6 Cabrio</h3>
+
+                        <img src="./images/popular6.png" class="popular-img">
+
+                        <div class="popular-data">
+                            <div class="popular-data-group">
+                                <img src="./images/SVG REPO/engine-motor-svgrepo-com.svg" width="20px"> 4.3L
+                            </div>
+
+                            <div class="popular-data-group">
+                                <img src="./images/SVG REPO/gearshift-svgrepo-com.svg" width="20px"> Automatic
+                            </div>
+
+                            <div class="popular-data-group">
+                                <img src="./images/SVG REPO/dashboard-svgrepo-com.svg" width="20px"> 48.240km
+                            </div>
+
+                            <div class="popular-data-group">
+                                <img src="./images/SVG REPO/gas-station-svgrepo-com.svg" width="20px"> Petrol
+                            </div>
+
+                            <div class="popular-price-container">
+                                <h3 class="popular-price">
+                                    Starting at 270$ / day
+                                </h3> 
+                            </div>
+
+                            <button class="popular-button">
+                                <i class="ri-arrow-right-double-fill"></i>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="popular-card swiper-slide">
+
+                        <h2 class="popular-title">Cadilac</h2>
+                        <h3 class="popular-subtitle">ATS</h3>
+
+                        <img src="./images/popular8.png" class="popular-img">
+
+                        <div class="popular-data">
+                            <div class="popular-data-group">
+                                <img src="./images/SVG REPO/engine-motor-svgrepo-com.svg" width="20px"> 3.6L
+                            </div>
+
+                            <div class="popular-data-group">
+                                <img src="./images/SVG REPO/gearshift-svgrepo-com.svg" width="20px"> Automatic
+                            </div>
+
+                            <div class="popular-data-group">
+                                <img src="./images/SVG REPO/dashboard-svgrepo-com.svg" width="20px"> 78.640km
+                            </div>
+
+                            <div class="popular-data-group">
+                                <img src="./images/SVG REPO/gas-station-svgrepo-com.svg" width="20px"> Petrol
+                            </div>
+
+                            <div class="popular-price-container">
+                                <h3 class="popular-price">
+                                    Starting at 170$ / day
+                                </h3> 
+                            </div>
+
+                            <button class="popular-button">
+                                <i class="ri-arrow-right-double-fill"></i>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="popular-card swiper-slide">
+
+                        <h2 class="popular-title">Mercedes-Benz</h2>
+                        <h3 class="popular-subtitle">S Class</h3>
+
+                        <img src="./images/popular10.png" class="popular-img">
+
+                        <div class="popular-data">
+                            <div class="popular-data-group">
+                                <img src="./images/SVG REPO/engine-motor-svgrepo-com.svg" width="20px"> 3.0L
+                            </div>
+
+                            <div class="popular-data-group">
+                                <img src="./images/SVG REPO/gearshift-svgrepo-com.svg" width="20px"> Automatic
+                            </div>
+
+                            <div class="popular-data-group">
+                                <img src="./images/SVG REPO/dashboard-svgrepo-com.svg" width="20px"> 105.320km
+                            </div>
+
+                            <div class="popular-data-group">
+                                <img src="./images/SVG REPO/gas-station-svgrepo-com.svg" width="20px"> Diesel
+                            </div>
+
+                            <div class="popular-price-container">
+                                <h3 class="popular-price">
+                                    Starting at 210$ / day
+                                </h3> 
+                            </div>
+
+                            <button class="popular-button">
+                                <i class="ri-arrow-right-double-fill"></i>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="popular-card swiper-slide">
+
+                        <h2 class="popular-title">Audi</h2>
+                        <h3 class="popular-subtitle">A6</h3>
+
+                        <img src="./images/popular5.png" class="popular-img">
+
+                        <div class="popular-data">
+                            <div class="popular-data-group">
+                                <img src="./images/SVG REPO/engine-motor-svgrepo-com.svg" width="20px"> 3.0L
+                            </div>
+
+                            <div class="popular-data-group">
+                                <img src="./images/SVG REPO/gearshift-svgrepo-com.svg" width="20px"> Manual
+                            </div>
+
+                            <div class="popular-data-group">
+                                <img src="./images/SVG REPO/dashboard-svgrepo-com.svg" width="20px"> 98.500km
+                            </div>
+
+                            <div class="popular-data-group">
+                                <img src="./images/SVG REPO/gas-station-svgrepo-com.svg" width="20px"> Diesel
+                            </div>
+
+                            <div class="popular-price-container">
+                                <h3 class="popular-price">
+                                    Starting at 180$ / day
+                                </h3> 
+                            </div>
+
+                            <button class="popular-button">
+                                <i class="ri-arrow-right-double-fill"></i>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="popular-card swiper-slide">
+
+                        <h2 class="popular-title">BMW</h2>
+                        <h3 class="popular-subtitle">X6</h3>
+
+                        <img src="./images/popular7.png" class="popular-img">
+
+                        <div class="popular-data">
+                            <div class="popular-data-group">
+                                <img src="./images/SVG REPO/engine-motor-svgrepo-com.svg" width="20px"> 3.0L
+                            </div>
+
+                            <div class="popular-data-group">
+                                <img src="./images/SVG REPO/gearshift-svgrepo-com.svg" width="20px"> Automatic
+                            </div>
+
+                            <div class="popular-data-group">
+                                <img src="./images/SVG REPO/dashboard-svgrepo-com.svg" width="20px"> 73.200km
+                            </div>
+
+                            <div class="popular-data-group">
+                                <img src="./images/SVG REPO/gas-station-svgrepo-com.svg" width="20px"> Petrol
+                            </div>
+
+                            <div class="popular-price-container">
+                                <h3 class="popular-price">
+                                    Starting at 190$ / day
+                                </h3> 
+                            </div>
+
+                            <button class="popular-button">
+                                <i class="ri-arrow-right-double-fill"></i>
+                            </button>
+                        </div>
+                    </article>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+
+        <!--==================== LOCATION ====================-->
+        <section class="location section" id="location">
+
+            <h2 class="section-title">
+                Location Name
+            </h2>
+
+                <img src="./images/map.svg" class="location-img" width="500px">
+
+                <div class="location-container container grid">
+                        <p class="location-info">
+                            Address: 123 Street Name, City, Country
+                        </p>
+
+                        <p class="location-info">
+                            Contact Information: +4071237901, shadowdrive@email.com
+                        </p>
+
+                        <p class="location-info">
+                            Operating Hours: Monday-Saturday, 9:00 AM - 6:00 PM
+                        </p>
+                </div>   
+        </section>
+
+        <!--==================== FEATURED ====================-->
+        <section class="featured section" id="featured">
+            <h2 class="section-title">
+                Featured Luxury Cars
+            </h2>
+
+            <div class="featured-container container">
+                <ul class="featured-filters">
+                    <li>
+                        <button class="featured-item active-featured" data-filter="all">
+                            <span>All</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="featured-item" data-filter=".mercedes">
+                             <img src="./images/car logo img/logo8.png">
+                        </button>
+                    </li>
+                    <li>
+                        <button class="featured-item" data-filter=".audi">
+                            <img src="./images/car logo img/logo2.png">
+                        </button>
+                    </li>
+                    <li>
+                        <button class="featured-item" data-filter=".bmw">
+                            <img src="./images/car logo img/logo5.png">
+                        </button>
+                    </li>
+                    <li>
+                        <button class="featured-item" data-filter=".porsche">
+                            <img src="./images/car logo img/logo1.png">
+                        </button>
+                    </li>
+                </ul>
+
+
+                <div class="featured-content grid">
+                    <article class="featured-card mix bmw">
+
+                        <h2 class="featured-title">BMW</h4>
+
+                        <h3 class="featured-subtitle">X6</h3>
+
+                        <img src="./images/popular7.png" class="featured-img">
+
+                        <h3 class="featured-price"> 190$ / Day</h3>
+
+                        <button class="featured-button">
+                            <i class="ri-arrow-right-double-fill"></i>
+                        </button>
+                    </article>
+
+                    <article class="featured-card mix land-rover">
+
+                        <h2 class="featured-title">Land Rover</h4>
+
+                        <h3 class="featured-subtitle">Range Rover Sport</h3>
+
+                        <img src="./images/popular11.png" class="featured-img">
+
+                        <h3 class="featured-price">130$ / Day</h3>
+
+                        <button class="featured-button">
+                            <i class="ri-arrow-right-double-fill"></i>
+                        </button>
+                    </article>
+
+                    <article class="featured-card mix bmw">
+
+                        <h2 class="featured-title">BMW</h4>
+
+                        <h3 class="featured-subtitle">M6 Cabrio</h3>
+
+                        <img src="./images/popular6.png" class="featured-img">
+
+                        <h3 class="featured-price"> 270$ / Day</h3>
+
+                        <button class="featured-button">
+                            <i class="ri-arrow-right-double-fill"></i>
+                        </button>
+                    </article>
+
+                    <article class="featured-card mix cadilac">
+
+                        <h2 class="featured-title">Cadilac</h4>
+
+                        <h3 class="featured-subtitle">ATS</h3>
+
+                        <img src="./images/popular8.png" class="featured-img">
+
+                        <h3 class="featured-price"> 170$ / Day</h3>
+
+                        <button class="featured-button">
+                            <i class="ri-arrow-right-double-fill"></i>
+                        </button>
+                    </article>
+
+                    <article class="featured-card mix mercedes">
+
+                        <h2 class="featured-title">Mercedes-Benz</h4>
+
+                        <h3 class="featured-subtitle">S Class</h3>
+
+                        <img src="./images/popular10.png" class="featured-img">
+
+                        <h3 class="featured-price"> 210$ / Day</h3>
+
+                        <button class="featured-button">
+                            <i class="ri-arrow-right-double-fill"></i>
+                        </button>
+                    </article>
+
+                    <article class="featured-card mix audi">
+
+                        <h2 class="featured-title">Audi</h4>
+
+                        <h3 class="featured-subtitle">A6</h3>
+
+                        <img src="./images/popular5.png" class="featured-img">
+
+                        <h3 class="featured-price"> 180$ / Day</h3>
+
+                        <button class="featured-button">
+                            <i class="ri-arrow-right-double-fill"></i>
+                        </button>
+                    </article>
+
+                    <article class="featured-card mix porsche">
+
+                        <h2 class="featured-title">Porsche</h4>
+
+                        <h3 class="featured-subtitle">Turbo S</h3>
+
+                        <img src="./images/popular1.png" class="featured-img">
+
+                        <h3 class="featured-price"> 280$ / Day</h3>
+
+                        <button class="featured-button">
+                            <i class="ri-arrow-right-double-fill"></i>
+                        </button>
+                    </article>
+
+                    <article class="featured-card mix porsche">
+
+                        <h2 class="featured-title">Porsche</h4>
+
+                        <h3 class="featured-subtitle">Cayman</h3>
+
+                        <img src="./images/popular2.png" class="featured-img">
+
+                        <h3 class="featured-price"> 300$ / Day</h3>
+
+                        <button class="featured-button">
+                            <i class="ri-arrow-right-double-fill"></i>
+                        </button>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== OFFER ====================-->
+        <section class="offer section">
+            <div class="offer-container container grid">
+                <img src="./images/offer-bg.png" class="offer-bg">
+
+                <div class="offer-text-content">
+                    <h2 class="section-title">
+                        Unlock Elite Privileges and Offers!
+                    </h2>
+
+                    <p class="offer-description">
+                        Be the first to know about our latest products and new car releases. Subscribe to our mailing list and receive exclusive offers directly in your inbox!
+                    </p>
+
+                    <a href="#" class="offer-button">Subscribe Now</a>
+                </div>
+
+                <img src="./images/popular2.png" class="offer-img">
+                <img src="./images/popular12.png" class="offer-img-big-rez">
+            </div>
+        </section>
+
+        <!--==================== LOGOS ====================-->
+        <section class="logos section">
+            <div class="logos-container container grid">
+                <div class="logos-content">
+                    <img src="images/car logo img/logo1.png"  class="logos-img">
+                </div>
+                <div class="logos-content">
+                    <img src="images/car logo img/logo2.png"  class="logos-img">
+                </div>
+                <div class="logos-content">
+                    <img src="images/car logo img/logo7.png"  class="logos-img">
+                </div>
+                <div class="logos-content">
+                    <img src="images/car logo img/logo9.png"  class="logos-img">
+                </div>
+                <div class="logos-content">
+                    <img src="images/car logo img/logo5.png"  class="logos-img">
+                </div>
+                <div class="logos-content">
+                    <img src="images/car logo img/logo8.png"  class="logos-img">
+                </div>
+            </div>
+        </section>
+     </main>
+
+
+             <!--==================== FOOTER ====================-->
+             <footer class="footer section">
+                <div class="footer-container container grid">
+                    <div class="footer-content">
+                        <a href="#" class="footer-logo">
+                            <i class="ri-steering-line"></i> ShadowDrive
+                        </a>
+                        <p class="footer-description">
+
+                        </p>
+                    </div> 
+    
+                    <div class="footer-text-content">
+                        <h3 class="footer-title">
+                            Company
+                        </h3>
+    
+                        <ul class="footer-links">
+                            <li>
+                                <a href="#" class="footer-link">About</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Cars</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">History</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Shop</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer-text-content">
+                        <h3 class="footer-title">
+                            Information
+                        </h3>
+    
+                        <ul class="footer-links">
+                            <li>
+                                <a href="#" class="footer-link">Request a quote</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Find a dealer</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Contact us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Services</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer-text-content">
+                        <h3 class="footer-title">
+                            My Socials
+                        </h3>
+    
+                        <ul class="footer-social">
+                            <a href="https://github.com/DDavidescu" target="_blank" class="footer-social-link">
+                                <i class="ri-github-line"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/david-bau-67a65628b/" target="_blank" class="footer-social-link">
+                                <i class="ri-linkedin-box-line"></i>
+                            </a>
+                            <a href="mailto:dbau43@yahoo.com" target="_blank" class="footer-social-link">
+                                <i class="ri-mail-line"></i>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+    
+                <span class="footer-copyright">
+                    &#169; Bau David
+                </span>
+            </footer>
+
+
+    <!-- MIXITUP -->
+    <script src="./assets/mixitup.min.js"></script>
+    <!-- SWIPER CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+</body>
+</html>
